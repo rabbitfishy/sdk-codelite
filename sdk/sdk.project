@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="sdk" Version="11000">
+  <VirtualDirectory Name="dependencies">
+    <File Name="dependencies/dependency.h"/>
+    <VirtualDirectory Name="render">
+      <File Name="dependencies/render/render.h"/>
+      <File Name="dependencies/render/render.cpp"/>
+      <File Name="dependencies/render/font.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="other">
+      <File Name="dependencies/other/translate.h"/>
+      <File Name="dependencies/other/other.cpp"/>
+      <File Name="dependencies/other/hash.h"/>
+      <File Name="dependencies/other/global.h"/>
+      <File Name="dependencies/other/dump.h"/>
+      <File Name="dependencies/other/color.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="memory">
+      <File Name="dependencies/memory/virtual.h"/>
+      <File Name="dependencies/memory/signatures.h"/>
+      <File Name="dependencies/memory/scanner.h"/>
+      <File Name="dependencies/memory/modules.h"/>
+      <File Name="dependencies/memory/memory.cpp"/>
+      <File Name="dependencies/memory/convars.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="maths">
+      <File Name="dependencies/maths/maths.h"/>
+      <File Name="dependencies/maths/maths.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="console">
+      <File Name="dependencies/console/console.h"/>
+      <File Name="dependencies/console/console.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="external">
+    <VirtualDirectory Name="minhook">
+      <File Name="external/minhook/trampoline.h"/>
+      <File Name="external/minhook/trampoline.c"/>
+      <File Name="external/minhook/hook.c"/>
+      <File Name="external/minhook/buffer.h"/>
+      <File Name="external/minhook/buffer.c"/>
+      <VirtualDirectory Name="include">
+        <File Name="external/minhook/include/minhook.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="hde">
+        <File Name="external/minhook/hde/table64.h"/>
+        <File Name="external/minhook/hde/table32.h"/>
+        <File Name="external/minhook/hde/pstdint.h"/>
+        <File Name="external/minhook/hde/hde64.h"/>
+        <File Name="external/minhook/hde/hde64.c"/>
+        <File Name="external/minhook/hde/hde32.h"/>
+        <File Name="external/minhook/hde/hde32.c"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="hooks">
+    <File Name="hooks/hooks.h"/>
+    <File Name="hooks/hooks.cpp"/>
+    <VirtualDirectory Name="hooked">
+      <File Name="hooks/hooked/hk_surface.cpp"/>
+      <File Name="hooks/hooked/hk_other.cpp"/>
+      <File Name="hooks/hooked/hk_client.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="valve">
+    <File Name="valve/valve.h"/>
+    <VirtualDirectory Name="other">
+      <File Name="valve/other/weapon_info.h"/>
+      <File Name="valve/other/studio.h"/>
+      <File Name="valve/other/net_channel.h"/>
+      <File Name="valve/other/key_value.h"/>
+      <File Name="valve/other/key_value.cpp"/>
+      <File Name="valve/other/convar.h"/>
+      <File Name="valve/other/convar.cpp"/>
+      <File Name="valve/other/bitbuf.h"/>
+      <File Name="valve/other/animations.h"/>
+      <File Name="valve/other/animations.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="netvar">
+      <File Name="valve/netvar/netvar.h"/>
+      <File Name="valve/netvar/netvar.cpp"/>
+      <File Name="valve/netvar/data_table.h"/>
+      <File Name="valve/netvar/data_map.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="maths">
+      <File Name="valve/maths/vector.h"/>
+      <File Name="valve/maths/utl_vector.h"/>
+      <File Name="valve/maths/q_angle.h"/>
+      <File Name="valve/maths/other.h"/>
+      <File Name="valve/maths/matrix.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="interface">
+      <File Name="valve/interface/interface.h"/>
+      <File Name="valve/interface/interface.cpp"/>
+      <VirtualDirectory Name="classes">
+        <File Name="valve/interface/classes/weapon_system.h"/>
+        <File Name="valve/interface/classes/surface.h"/>
+        <File Name="valve/interface/classes/studio_render.h"/>
+        <File Name="valve/interface/classes/prediction.h"/>
+        <File Name="valve/interface/classes/physics_surface_props.h"/>
+        <File Name="valve/interface/classes/panel.h"/>
+        <File Name="valve/interface/classes/network.h"/>
+        <File Name="valve/interface/classes/model_info.h"/>
+        <File Name="valve/interface/classes/material_system.h"/>
+        <File Name="valve/interface/classes/localize.h"/>
+        <File Name="valve/interface/classes/key_value_system.h"/>
+        <File Name="valve/interface/classes/input.h"/>
+        <File Name="valve/interface/classes/global_vars.h"/>
+        <File Name="valve/interface/classes/game_types.h"/>
+        <File Name="valve/interface/classes/game_console.h"/>
+        <File Name="valve/interface/classes/event_manager.h"/>
+        <File Name="valve/interface/classes/entity_list.h"/>
+        <File Name="valve/interface/classes/engine_vgui.h"/>
+        <File Name="valve/interface/classes/engine_trace.h"/>
+        <File Name="valve/interface/classes/engine_sound.h"/>
+        <File Name="valve/interface/classes/engine_convar.h"/>
+        <File Name="valve/interface/classes/engine_client.h"/>
+        <File Name="valve/interface/classes/debug_overlay.h"/>
+        <File Name="valve/interface/classes/client_mode.h"/>
+        <File Name="valve/interface/classes/base_interface.h"/>
+        <File Name="valve/interface/classes/base_client.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="entity">
+      <File Name="valve/entity/other.h"/>
+      <File Name="valve/entity/entity.h"/>
+      <File Name="valve/entity/entity.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="classes">
+      <File Name="valve/classes/user_cmd.h"/>
+      <File Name="valve/classes/other.h"/>
+      <File Name="valve/classes/clients.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="no" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Workspace Settings&gt;" DbgSetName="&lt;Use Global Settings&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
